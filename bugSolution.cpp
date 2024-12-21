@@ -1,0 +1,1 @@
+Using a regular `std::vector<bool>` will cause issues with the standard library, so using std::vector<char> where each char represents a bool is the most simple and efficient way to mitigate the issues in the bug.cpp.
